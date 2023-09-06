@@ -1,0 +1,15 @@
+package com.mysite.rest.employee.entity;
+
+import jakarta.persistence.Entity;
+
+//사원 테이블
+@Entity
+public class Employee {
+
+	private long id;
+	private String firstName;
+	private String lastname;
+	private String emailId;
+	
+	
+}

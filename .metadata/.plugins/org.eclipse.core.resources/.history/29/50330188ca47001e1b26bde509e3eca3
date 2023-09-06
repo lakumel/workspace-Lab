@@ -1,0 +1,13 @@
+package com.mysite.rest.employee.controller;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RestController;
+
+@CrossOrigin("*")	//CORS 셋팅
+@RestController
+public class EmployeeController {
+
+	
+	
+	
+}
